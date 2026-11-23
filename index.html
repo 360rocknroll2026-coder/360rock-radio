@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090812">
+  <meta name="description" content="360Rock n' Roll Radio Online. Rock, clásicos y nuevas vibraciones. Sintonizá nuestra transmisión en vivo.">
+  <title>360Rock n' Roll Radio Online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="360Rock inicio">
+      <span class="brand-mark"><span>360</span><i>°</i></span>
+      <span class="brand-copy"><strong>ROCK N' ROLL</strong><small>RADIO ONLINE</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#en-vivo">EN VIVO</a>
+      <a href="#nosotros">LA RADIO</a>
+      <a href="#redes">REDES</a>
+    </nav>
+    <a class="header-live" href="#en-vivo"><span class="live-dot"></span> SINTONIZAR</a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="banner-section" id="inicio" aria-label="Banner de 360Rock n' Roll Radio Online">
+      <img class="main-banner" src="assets/banner-360rock.jpg" alt="360Rock n' Roll Channel Radio Online — sábados de 18 a 20 horas">
+    </section>
+
+    <section class="studio-section" aria-label="Estudio de 360Rock n' Roll">
+      <img class="studio-image" src="assets/estudio-360rock.png" alt="Estudio de radio con pared de ladrillos, dos sillas vacías, micrófonos con brazos articulados y cartel ON AIR apagado">
+      <div class="studio-caption"><span class="live-dot"></span> EL ESTUDIO ESTÁ LISTO. NOS ENCONTRAMOS EN LA PRÓXIMA TRANSMISIÓN.</div>
+    </section>
+
+    <section class="listen-section section-wrap" id="en-vivo">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> CONECTÁ CON NOSOTROS</p><h2>ESTAMOS <em>AL AIRE</em></h2></div>
+        <span class="section-index">01 / SINTONÍA</span>
+      </div>
+      <div class="player-layout">
+        <div class="player-panel">
+          <div class="player-top"><span class="live-label"><i></i> TRANSMISIÓN EN DIRECTO</span><span class="on-air">ON AIR</span></div>
+          <div class="screen" id="player-screen">
+            <div class="screen-placeholder" id="player-placeholder">
+              <div class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="screen-title">360<span>ROCK</span></div>
+              <p>EL ROCK SUENA ACÁ</p>
+              <small>Cuando estemos transmitiendo, dale play y disfrutá.</small>
+              <a class="button button-primary" id="open-youtube" href="https://www.youtube.com/@360RockNrollarg/live" target="_blank" rel="noopener">VER CANAL EN YOUTUBE ↗</a>
+            </div>
+            <div class="youtube-frame" id="youtube-frame" hidden></div>
+          </div>
+          <div class="player-footer"><span>360 ROCK N' ROLL RADIO</span><span>SUBÍ EL VOLUMEN. BAJÁ LAS PREOCUPACIONES.</span></div>
+        </div>
+        <aside class="tune-card">
+          <div class="tune-icon">♫</div>
+          <p class="eyebrow">TU LUGAR ESTÁ ACÁ</p>
+          <h3>DALE PLAY<br>AL <em>ROCK.</em></h3>
+          <p>Entrá a nuestro canal y acompañanos en cada emisión en vivo.</p>
+          <a class="text-link" href="https://www.youtube.com/@360RockNrollarg" target="_blank" rel="noopener">IR AL CANAL <span>↗</span></a>
+          <div class="tune-decoration">360</div>
+        </aside>
+      </div>
+      <p class="player-note">Si el reproductor no muestra una emisión, visitá nuestro canal de YouTube para ver si estamos transmitiendo.</p>
+    </section>
+
+    <section class="about-section" id="nosotros">
+      <div class="about-inner section-wrap">
+        <div class="about-art" aria-hidden="true"><div class="vinyl"><div class="vinyl-label">360<br><small>ROCK</small></div></div><span class="art-caption">SIDE A · THE GOOD STUFF</span></div>
+        <div class="about-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> NUESTRA FRECUENCIA</p>
+          <h2>NO ES SOLO<br>MÚSICA. ES <em>ACTITUD.</em></h2>
+          <p>Somos 360Rock n' Roll Radio Online: un espacio para compartir la energía del rock, esos clásicos que nunca pasan de moda y las canciones que merecen sonar más fuerte.</p>
+          <p>Prendé los parlantes, buscá tu lugar y sé parte de esta comunidad rockera.</p>
+          <a class="button button-outline" href="https://www.youtube.com/@360RockNrollarg" target="_blank" rel="noopener">SEGUINOS EN YOUTUBE ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="social-section section-wrap" id="redes">
+      <div class="social-copy"><p class="eyebrow"><span class="eyebrow-line"></span> SEGUÍ EN CONTACTO</p><h2>EL ROCK SE<br>COMPARTE.</h2><p>Encontranos en YouTube y acompañá cada transmisión.</p></div>
+      <a class="social-card youtube-card" href="https://www.youtube.com/@360RockNrollarg" target="_blank" rel="noopener"><span class="social-icon">▶</span><span><small>NUESTRO CANAL</small><strong>YOUTUBE</strong></span><b>↗</b></a>
+      <a class="social-card live-card" href="https://www.youtube.com/@360RockNrollarg/live" target="_blank" rel="noopener"><span class="social-icon">◉</span><span><small>CUANDO ESTAMOS</small><strong>EN VIVO</strong></span><b>↗</b></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark"><span>360</span><i>°</i></span><span class="brand-copy"><strong>ROCK N' ROLL</strong><small>RADIO ONLINE</small></span></a>
+    <p>© <span id="year"></span> 360Rock n' Roll Radio Online. Todos los derechos reservados.</p>
+    <a href="#inicio" class="back-top">VOLVER ARRIBA ↑</a>
+  </footer>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
